@@ -1,0 +1,11 @@
+.navbar{
+display: flex;
+justify-content: space-around;
+border: 1px solid black;
+padding: 1rem;
+margin-bottom: 10px;
+}
+
+.navbar>a{
+    display: block;
+}

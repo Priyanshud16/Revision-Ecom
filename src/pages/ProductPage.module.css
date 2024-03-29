@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.flex img{
+width: 200px;
+}
+.flex>div{
+    border: 1px solid black;
+}
