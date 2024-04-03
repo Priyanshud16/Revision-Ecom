@@ -1,12 +1,12 @@
 import React from 'react'
 import { Card, CardHeader, CardBody, CardFooter,Heading,Image,Stack,Text,Divider,ButtonGroup,Button } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom'
-
+import './ProductCars.css'
 function ProductCard({id,title,price,rating,description,image}) {
 
 const navigate=useNavigate()
   return (
-    <div style={{display:"flex"}} key={id}>
+    <div style={{display:"flex"}} key={id} id='productContainer'>
      {/* <div></div>
      <div></div> */}
      <Card maxW='sm'>
