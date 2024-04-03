@@ -11,7 +11,7 @@ width: 200px;
 
 @media only screen and (max-width: 767px) {
   .flex{
-    border: 2px solid red;
+   
     width: 950px;
   }
   .flex img{
